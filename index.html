@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>El Ahorcado</title>
+</head>
+<body>
+    <!-- Textos decorativos y el número de intentos -->
+    <h1>El Ahorcado</h1>
+    <p class="parrafo">Te quedan <div class="intentos"></div></p>
+    <p class="parrafo">intentos restantes</p>
+    <div class="mensaje"></div>
+    <p class="parrafo">La palabra es: <span class="palabra"></span></p>
+    <!-- Contenedor con todas las letras divididas en filas -->
+    <div class="abecedario">
+        <div class="fila">
+            <div class="letra">A</div>
+            <div class="letra">B</div>
+            <div class="letra">C</div>
+            <div class="letra">D</div>
+            <div class="letra">E</div>
+            <div class="letra">F</div>
+            <div class="letra">G</div>
+            <div class="letra">H</div>
+        </div>
+        <div class="fila">
+            <div class="letra">I</div>
+            <div class="letra">J</div>
+            <div class="letra">K</div>
+            <div class="letra">L</div>
+            <div class="letra">M</div>
+            <div class="letra">N</div>
+            <div class="letra">Ñ</div>
+            <div class="letra">O</div>
+        </div>
+        <div class="fila">
+            <div class="letra">P</div>
+            <div class="letra">Q</div>
+            <div class="letra">R</div>
+            <div class="letra">S</div>
+            <div class="letra">T</div>
+            <div class="letra">U</div>
+            <div class="letra">V</div>
+            <div class="letra">W</div>
+        </div>
+        <div class="fila">
+            <div class="letra">X</div>
+            <div class="letra">Y</div>
+            <div class="letra">Z</div>
+        </div>
+    </div>
+    <!-- Errores cometidos por el jugador y botón para reiniciar el juego -->
+    <p class="errores">Errores cometidos: <span class="lista-errores"></span></p>
+    <button onclick="reiniciarJuego()">Nuevo Juego</button>
+    <script src="script.js"></script>
+</body>
+</html>
