@@ -9,6 +9,15 @@
 <body>
     <!-- Textos decorativos y el número de intentos -->
     <h1>El Ahorcado</h1>
+
+    <div class="selector-categoria">
+        <label for="categoria">Selecciona una categoría:</label>
+        <select id="categoria">
+            <option value="">Cargando categorías...</option>
+        </select>
+    </div>
+
+    <div class="cronometro">Tiempo restante: <span id="tiempo">10</span> segundos</div>
     <p class="parrafo">Te quedan <div class="intentos"></div></p>
     <p class="parrafo">intentos restantes</p>
     <div class="mensaje"></div>
@@ -54,6 +63,14 @@
     <!-- Errores cometidos por el jugador y botón para reiniciar el juego -->
     <p class="errores">Errores cometidos: <span class="lista-errores"></span></p>
     <button onclick="reiniciarJuego()">Nuevo Juego</button>
+
+    <!-- Estadísticas -->
+    <div class="estadisticas">
+        <h2>Estadísticas</h2>
+        <p>Partidas jugadas: <span id="partidasJugadas">0</span></p>
+        <p>Partidas ganadas: <span id="partidasGanadas">0</span></p>
+        <p>Partidas perdidas: <span id="partidasPerdidas">0</span></p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

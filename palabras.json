@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "categoria": "Animales",
+            "palabras": ["perro", "gato", "elefante", "jirafa", "tigre"]
+        },
+        {
+            "categoria": "Verduras",
+            "palabras": ["puerro", "pepino", "calabacin", "lechuga", "coliflor"]
+        },
+        {
+            "categoria": "Personajes de Star Wars",
+            "palabras": ["Luke", "Leia", "Yoda", "Vader"]
+        }
+    ]
+}

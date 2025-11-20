@@ -11,6 +11,38 @@ body {
             color: #fff;
         }
 
+.selector-categoria {
+    margin: 20px 0;
+}
+
+.selector-categoria label {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.selector-categoria select {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #666666;
+    color: white;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+.selector-categoria select:hover {
+    background-color: #4e4d4d;
+}
+
+        .cronometro {
+            font-size: 24px;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
         .palabra {
             font-size: 32px;
             letter-spacing: 10px;
@@ -97,4 +129,23 @@ body {
 
         button:hover {
             background-color: #27ae60;
+        }
+
+        .estadisticas {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 400px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .estadisticas h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+
+        .estadisticas p {
+            margin: 10px 0;
+            font-size: 18px;
         }
